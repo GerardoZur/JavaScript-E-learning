@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Final</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <script type="text/javascript" src="/enlaces/Trabajo final_Zurbriggen/scripts/script.js"></script>
+    <script type="text/javascript" src="/enlaces/Trabajo final_Zurbriggen/scripts/jquery-3.6.1.js"></script>
+    <script type="text/javascript" src="/enlaces/Trabajo final_Zurbriggen/scripts/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <section class="container" id="container">
+        <h1 id="titular2">Trabajo Práctico Final</h1>
+        <h1 id="historieta">HISTORIETA</h1>
+        <h2 id="instruccion">Complete con sus datos para acceder a la historieta</h2> 
+        <form class="form" name="formulario" id="formulario" method="post" action="#">
+            <label class="label">Nombre y Apellido</label></br>
+            <input class="input" name="nombre" id="nombre" type="text" placeholder="Nombre Completo" pattern="[A-Z a-z]{0,30}" required></br>
+            <label class="label">Teléfono</label></br>
+            <input class="input" name="telefono" id="telefono" type="number" placeholder="Número Telefónico" pattern="[0-9]" required></br>
+            <label class="label">E-mail</label></br>
+            <input class="input" name="email" id="email" type="email" placeholder="E-mail" required></br>
+            <label class="label">Password</label></br>
+            <input class="input" name="password" id="password" type="password" placeholder="Password" pattern="[A-Za-z0-9]{8,20}"  required></br>
+            <input class="input" name="password2" id="password2" type="password" placeholder="Repetir Password" pattern="[A-Za-z0-9]{8,20}"  required></br>
+            <input class="boton" type="button" id="boton" value="Validar Datos">
+        </form>
+        <h2 id="titular"></h2>
+    </section>
+
+</body>
+</html>
